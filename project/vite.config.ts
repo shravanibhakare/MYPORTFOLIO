@@ -7,4 +7,10 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    rollupOptions: {
+      // Externalize EmailJS so Vite doesn’t try to bundle it
+      external: ['@emailjs/browser'],
+    },
+  },
 });
