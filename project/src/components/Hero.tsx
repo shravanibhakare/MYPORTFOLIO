@@ -1,5 +1,7 @@
 import React from 'react';
 import { Sparkles, ChevronDown } from 'lucide-react';
+import myImg from '../assets/my_img.png'; 
+
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -13,10 +15,11 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full blur-lg opacity-30 animate-pulse"></div>
             <img 
-              src="images/my_img.png"
-              alt="Shravani Bhakare" 
-              className="relative rounded-full w-40 h-40 object-cover border-4 border-white shadow-xl hover:scale-105 transition-transform duration-300"
+                src={myImg}
+                alt="Shravani Bhakare" 
+                className="relative rounded-full w-40 h-40 object-cover border-4 border-white shadow-xl hover:scale-105 transition-transform duration-300"
             />
+
           </div>
         </div>
         <div className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-md mb-8 hover:shadow-lg transition-all">

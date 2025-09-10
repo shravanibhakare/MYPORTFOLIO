@@ -5,11 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: './', // important: makes asset paths relative
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    exclude: ['lucide-react'], // keep if you need it
   },
-  build: {
-    rollupOptions: {
-      external: ['@emailjs/browser'],
-    },
-  },
+  // REMOVE build.rollupOptions.external
 });

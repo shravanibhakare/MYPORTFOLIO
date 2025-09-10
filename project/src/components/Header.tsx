@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Menu, X, Download } from 'lucide-react';
+import resumePdf from '../assets/resume+updated+shravani_bhakare+sggs.pdf';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function Header() {
             <a href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors">Experience</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             <a 
-              href="images/resume+updated+shravani_bhakare+sggs.pdf" 
+              href={resumePdf} 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors font-semibold border border-gray-600 px-3 py-1 rounded hover:bg-gray-100"
