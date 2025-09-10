@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, showcasing my projects and professional journey in AI/ML and software development.
 
-![Portfolio Hero Section](project/images/image.png)
+
 
 ## 🌟 Features
 
