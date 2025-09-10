@@ -3,13 +3,13 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // crucial for Netlify relative paths
+  base: './', // important: makes asset paths relative
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   build: {
     rollupOptions: {
-      external: ['@emailjs/browser'], // fix EmailJS import issue
+      external: ['@emailjs/browser'],
     },
   },
 });
