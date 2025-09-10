@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Menu, X, Download } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,6 +29,14 @@ export default function Header() {
             <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
             <a href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors">Experience</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            <a 
+              href="images/resume+updated+shravani_bhakare+sggs.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors font-semibold border border-gray-600 px-3 py-1 rounded hover:bg-gray-100"
+            >
+              <Download className="h-4 w-4" /> Resume
+            </a>
             <div className="flex items-center gap-4">
               <a href="https://github.com/shravanibhakare" 
                  target="_blank" 
@@ -78,6 +86,16 @@ export default function Header() {
                  onClick={() => setIsMenuOpen(false)}>
                 Contact
               </a>
+              <a 
+                href="https://drive.google.com/uc?export=download&id=1N1L3tCoKLk1y08TyyPofazET1LDnp-Ka"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors font-semibold border border-gray-600 px-3 py-1 rounded hover:bg-gray-100"
+                onClick={() => setIsMenuOpen(false)}
+              >
+              <Download className="h-4 w-4" /> Resume
+              </a>
+
               <div className="flex items-center gap-4 pt-2">
                 <a href="https://github.com/shravanibhakare" 
                    target="_blank" 
