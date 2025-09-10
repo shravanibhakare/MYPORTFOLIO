@@ -21,47 +21,13 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - TypeScript  
 - Tailwind CSS  
 - Vite  
-- Lucide Icons  
+- Lucide Icons
+- EmailJS
 
-## 📱 Sections
 
-### Hero Section
-The landing section features a professional introduction with a modern gradient background and call-to-action buttons.
 
-### Skills
-Comprehensive display of technical skills including:  
-- Programming Languages  
-- AI/ML & Data  
-- Web Development  
-- Tools & Platforms  
-- Core Subjects  
-- Soft Skills  
 
-### Projects
-Showcase of key projects:  
-- Smart Food Redistribution System  
-- CoinVista (Crypto Tracker)  
-- Cross-Lingual Search  
-- AI Travel Planner  
-- Library Management System (Java CLI)  
-- Python Command Line Games (Sudoku, Number Guessing)  
 
-### Experience
-Timeline of professional experience and education:  
-- B.Tech in Information Technology  
-- Academic and extracurricular contributions  
-- Professional certifications  
-
-### Contact
-Interactive contact section with:  
-- Email form functionality  
-- Social media links  
-- Professional networking options  
-
-## 🚀 Live Demo
-
-Visit the live website: [Shravani's Portfolio](https://sharuvaruu.netlify.app/)  
-*(Replace with your actual Netlify/Vercel link once deployed)*
 
 ## 📬 Get in Touch
 
@@ -71,4 +37,4 @@ Visit the live website: [Shravani's Portfolio](https://sharuvaruu.netlify.app/)
 
 ---
 
-Built with 💜 by Shravani Bhakare
+Built with 💛 by Shravani Bhakare
