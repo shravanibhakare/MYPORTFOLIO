@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, showcasing my projects and professional journey in AI/ML and software development.
 
-Live Link: [https://myportfolio-beta-ten-61.vercel.app/#experience](https://myportfolio-beta-ten-61.vercel.app/)
+Live Link: [Shravani's Portfolio](https://myportfolio-beta-ten-61.vercel.app/)
 
 
 ## 🌟 Features
